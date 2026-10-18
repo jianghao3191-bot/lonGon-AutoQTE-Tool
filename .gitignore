@@ -1,0 +1,30 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 构建产物（用 GitHub Releases 发，不进 git）----
+build/
+dist/
+lonGon-AutoQTE-Tool/
+release/
+发布/
+
+# ---- 本地运行产生的东西 ----
+lonGon-AutoQTE-Tool.json
+running.log
+*.log
+.gh_token
+
+# ---- 临时 ----
+.tmp/
+*.tmp
+
+# ---- 系统 / 编辑器 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
